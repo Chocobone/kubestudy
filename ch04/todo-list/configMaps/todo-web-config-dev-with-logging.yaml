@@ -3,13 +3,13 @@ kind: ConfigMap
 metadata:
   name: todo-web-config-dev
 data:
-  config.json: |-
+  config.json: |-   # 기존 설정 파일
     {
       "ConfigController": {
         "Enabled" : true
       }
     }
-  logging.json: |-
+  logging.json: |-  # 볼륨 마운트로 전달될 두번째 설정 파일
     {
       "Logging": {
         "LogLevel": {
