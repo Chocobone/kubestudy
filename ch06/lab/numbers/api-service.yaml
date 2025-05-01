@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: numbers-api
   labels:
-    kiamol: ch06-lab
+    rng: hw
 spec:
   ports:
     - port: 80

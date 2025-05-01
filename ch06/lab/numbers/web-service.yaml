@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: numbers-web
   labels:
-    kiamol: ch06-lab
+    rng: hw
 spec:
   ports:
     - port: 8086
